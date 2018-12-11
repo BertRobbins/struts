@@ -1,3 +1,4 @@
+
 <!--
 Licensed to the Apache Software Foundation (ASF) under one or more
 contributor license agreements. See the NOTICE file distributed with
@@ -14,6 +15,7 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 -->
+<%@ taglib prefix="s" uri="/struts-tags" %>
 <title>Find User</title>
 <s:form action="findUser">
     <s:textfield name="id" label="Enter ID *" required="true"/>
